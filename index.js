@@ -42,7 +42,14 @@ class Airplane {
   */
   
  class Person {
-    
+    constructor(attrs){
+      this.name = attrs.name
+      this.location = attrs.location
+      this.stomach = []
+    }
+    eat(food){
+      
+    }
   }
   
   /*
